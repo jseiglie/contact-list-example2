@@ -4,10 +4,7 @@ import { useNavigate } from "react-router";
 
 export const Card = ({ email, phone, address, name, contactId }) => {
     const navigate = useNavigate();
-    const { store, actions } = useContext(Context);
-
-
-
+    const { actions } = useContext(Context);
 
     return (<div className="card" style={{ width: '28rem' }}>
 

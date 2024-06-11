@@ -3,7 +3,7 @@ import { Context } from "../store/appContext";
 
 export const NewUser = () => {
     const [user, setUser] = useState('');
-    const { store, actions } = useContext(Context);
+    const { actions } = useContext(Context);
     const [hide, setHide] = useState(false)
     const handleSubmit = e => {
         e.preventDefault();
